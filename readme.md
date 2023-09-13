@@ -8,7 +8,7 @@
 
 ## Ferramentas:
 
-- [] Remix Icons
-- [] SwiperJs
-- [] Css3
-- [] Html5
+- [x] Remix Icons
+- [x] SwiperJs
+- [x] Css3
+- [x] Html5
