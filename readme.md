@@ -6,7 +6,7 @@
 
 ## Preview
 
-![Screenshot](./assets/slider.png)
+![Screenshot](./assets/slider-screenshot.png)
 
 ## Ferramentas:
 
