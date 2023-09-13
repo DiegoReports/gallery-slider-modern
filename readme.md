@@ -4,7 +4,7 @@
 
 <p align=center>Slider com design clean e deslizamento feito com efeito similar a roleta.</p>
 
-<img src="./assets/slider.png" align="center"  width="332px" height="430px">
+<img src="./assets/slider.png" align=center>
 
 ## Ferramentas:
 
