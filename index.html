@@ -8,17 +8,23 @@
   <link rel="stylesheet" href="./css/style.css">
 
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
 </head>
 
 <body>
 
   <div class="gallery">
-    <div class="gallery-cards">
-      <div>
-        <div>
+    <div class="swiper gallery-cards">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
           <article class="gallery__card">
-            <img src="./assets/img1.png" alt="imagem da galeria" class="gallery-img">
-            <div class="gallery-data">
+            <img src="./assets/img1.png" alt="imagem da galeria" class="gallery__img">
+            <div class="gallery__data ">
               <h3 class="gallery__title">Ornament Vase</h3>
               <span class="gallery__subtitle">
                 Modern
@@ -27,10 +33,10 @@
           </article>
         </div>
 
-        <div>
+        <div class="swiper-slide">
           <article class="gallery__card">
-            <img src="./assets/img2.png" alt="imagem da galeria" class="gallery-img">
-            <div class="gallery-data">
+            <img src="./assets/img2.png" alt="imagem da galeria" class="gallery__img">
+            <div class="gallery__data ">
               <h3 class="gallery__title">Ornament Vase</h3>
               <span class="gallery__subtitle">
                 Modern
@@ -39,10 +45,10 @@
           </article>
         </div>
 
-        <div>
+        <div class="swiper-slide">
           <article class="gallery__card">
-            <img src="./assets/img3.png" alt="imagem da galeria" class="gallery-img">
-            <div class="gallery-data">
+            <img src="./assets/img3.png" alt="imagem da galeria" class="gallery__img">
+            <div class="gallery__data ">
               <h3 class="gallery__title">Ornament Vase</h3>
               <span class="gallery__subtitle">
                 Modern
@@ -51,10 +57,10 @@
           </article>
         </div>
 
-        <div>
+        <div class="swiper-slide">
           <article class="gallery__card">
-            <img src="./assets/img4.png" alt="imagem da galeria" class="gallery-img">
-            <div class="gallery-data">
+            <img src="./assets/img4.png" alt="imagem da galeria" class="gallery__img">
+            <div class="gallery__data ">
               <h3 class="gallery__title">Ornament Vase</h3>
               <span class="gallery__subtitle">
                 Modern
@@ -63,10 +69,10 @@
           </article>
         </div>
 
-        <div>
+        <div class="swiper-slide">
           <article class="gallery__card">
-            <img src="./assets/img5.png" alt="imagem da galeria" class="gallery-img">
-            <div class="gallery-data">
+            <img src="./assets/img5.png" alt="imagem da galeria" class="gallery__img">
+            <div class="gallery__data ">
               <h3 class="gallery__title">Ornament Vase</h3>
               <span class="gallery__subtitle">
                 Modern
@@ -78,42 +84,55 @@
     </div>
 
     <!--     ========= SWIPER GALLERY THUMBNAIL ========= -->
-    gallery__overflow
-    <div class="gallery-thumbs">
-      <div>
-        <div>
-          <div class="gallery__thumbnail">
-            <img src="./assets/img1.png" alt="thumbnail da imagem" class="gallery__thumbnail-img">
+    <div class="gallery__overflow">
+      <div class="swiper gallery-thumbs">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="gallery__thumbnail">
+              <img src="./assets/img1.png" alt="thumbnail da imagem" class="gallery__thumbnail-img">
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="gallery__thumbnail">
+              <img src="./assets/img2.png" alt="thumbnail da imagem" class="gallery__thumbnail-img">
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="gallery__thumbnail">
+              <img src="./assets/img3.png" alt="thumbnail da imagem" class="gallery__thumbnail-img">
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="gallery__thumbnail">
+              <img src="./assets/img4.png" alt="thumbnail da imagem" class="gallery__thumbnail-img">
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="gallery__thumbnail">
+              <img src="./assets/img5.png" alt="thumbnail da imagem" class="gallery__thumbnail-img">
+            </div>
           </div>
         </div>
 
-        <div>
-          <div class="gallery__thumbnail">
-            <img src="./assets/img2.png" alt="thumbnail da imagem" class="gallery__thumbnail-img">
-          </div>
-        </div>
+        <!-- Paginação do Swiper-->
 
-        <div>
-          <div class="gallery__thumbnail">
-            <img src="./assets/img3.png" alt="thumbnail da imagem" class="gallery__thumbnail-img">
-          </div>
-        </div>
+        <div class="swiper-pagination"></div>
+      </div>
 
-        <div>
-          <div class="gallery__thumbnail">
-            <img src="./assets/img4.png" alt="thumbnail da imagem" class="gallery__thumbnail-img">
-          </div>
-        </div>
-
-        <div>
-          <div class="gallery__thumbnail">
-            <img src="./assets/img5.png" alt="thumbnail da imagem" class="gallery__thumbnail-img">
-          </div>
-        </div>
-
+      <!-- Setas do Swiper-->
+      <div class="swiper-button-next">
+        <i class="ri-arrow-right-line"></i>
+      </div>
+      <div class="swiper-button-prev">
+        <i class="ri-arrow-left-line"></i>
       </div>
     </div>
   </div>
+  <script src="./js/swiper-bundle.min.js"></script>
   <script src="./js/main.js"></script>
 </body>
 
